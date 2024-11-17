@@ -1,0 +1,110 @@
+body{
+    background: rgb(34, 51, 54);
+}
+        .form {
+  font-family: Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 16px;
+  background: #2da0b2;
+  box-shadow: 0 5px 25px rgba(180, 180, 180, 0.15);
+  border-radius: 15px;
+}
+.form h1 {
+  background: #204db6;
+  padding: 20px 0;
+  font-weight: 300;
+  text-align: center;
+  color: #0a0404;
+  margin: -16px -16px 16px -16px;
+  font-size:  25px;
+  border-radius: 15px;
+  transition: 0.7s;
+}
+.form h1:hover{
+    transform: scale(1.1);
+    background-color: #28344f;
+}
+.form input[type="text"],
+.form input[type="url"] {
+  box-sizing: border-box;
+  width: 100%;
+  background: #a6dcef;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-size: 17px;
+  color: rgb(9, 61, 125);
+  border-radius: 15px;
+  transition: 0.7s;
+
+}
+
+.form input[type="text"]:focus,
+.form input[type="url"]:focus {
+  box-shadow: 0 0 5px #5868bf;
+  padding: 4%;
+  border: 1px solid #5868bf;
+}
+.form input[type="text"]:hover,
+.form input[type="url"]:hover{
+    transform: scale(1.1);
+}
+.form button {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 180px;
+  margin: 0 auto;
+  padding: 3%;
+  background: #0853b6;
+  border: none;  
+  border-radius: 3px;
+  font-size: 17px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #0a0c18;
+  cursor: pointer;
+  transition: 0.7s;
+  border-radius: 15px;
+}
+.form button:hover {
+  background: rgba(35, 43, 88, 0.5);
+  transform: scale(1.1);
+}
+#qrcode-container{
+    display:none;
+}
+
+.qrcode{
+  padding: 16px;
+  margin-bottom: 30px;
+}
+.qrcode img{
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
+  padding: 4px;
+}
+.footer{
+    background-color: rgb(24, 26, 25);
+    color: rgb(27, 97, 227);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+}
+.footer:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.04);
+}
+.footer_title{
+    font-size: 1.3em;
+    font-weight: 600;
+
+
+}
+.footer_title span{
+    color: rgb(18, 18, 124);
+}
